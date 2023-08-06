@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-
+//查看printf()函数的默认对齐方式
 int main(void){
 
 
