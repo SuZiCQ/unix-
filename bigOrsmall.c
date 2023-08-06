@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//检测主机字节序是大端还是小端
 union test{
 
 	int a;
