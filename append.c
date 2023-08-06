@@ -5,7 +5,7 @@
 #include<string.h>
 
 int main(int argc,char *argv[]){
-
+//以追加的方式打开文件
 	int flags=O_RDWR|O_CREAT|O_APPEND;
 	unsigned int mode=0644;
 	int fd=open(argv[1],flags,mode);
